@@ -1,5 +1,4 @@
 import { Builder } from "@builder.io/react";
-import BuilderPage from "./App";
 import Counter from "./components/Counter/Counter";
 import Heading from "./components/Heading/Heading";
 
