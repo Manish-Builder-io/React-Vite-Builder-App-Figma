@@ -1,5 +1,9 @@
-const Heading = props => (
-    <h1 className="my-heading">{props.title}</h1>
-  )
-  
-  export default Heading;
+interface HeadingProps {
+  title: string;
+}
+
+const Heading = ({ title }: HeadingProps) => (
+  <h1 className="my-heading">{title}</h1>
+);
+
+export default Heading;
